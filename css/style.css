@@ -37,7 +37,7 @@ li{
     filter: invert(97%);
 }
 /* classe per girare l'immagine dell'onda */
-.storta{
+.invert{
     rotate: 180deg;
 }
 /* classe per l'header */
@@ -224,7 +224,7 @@ footer{
     margin: 0 auto;
     min-height: 400px;
 }
-/* classe per il blocco rosso */
+/* classe per il blocco dei social */
 .block-social{
     min-height: 500px;
     width: calc((100% / 6) * 2);
