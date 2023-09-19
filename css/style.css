@@ -27,7 +27,7 @@ li{
 }
 /* classe per gli sfondi grigi */
 .b-gray{
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 /* classe per l'header */
 header{
@@ -146,7 +146,7 @@ h1{
 .block-text p{
     font-size: 1.5rem;
     line-height: 2.5rem;
-    color: #282127;
+    color: #000000;
 }
 /* classe per la sezione del main inferiore*/
 .section-main-bottom{
@@ -159,14 +159,41 @@ h1{
     flex-direction: row;
     width: 70%;
     margin: 0 auto;
-    min-height: 900px;
-    border: var(--bb-border);
 }
-/* classe per il blocco verde */
-.block-verde{
-    min-height: 800px;
+/* classe per il blocco grande */
+.block-big{
+    text-align: center;
+    padding: 3rem;
     width: 100%;
-    background-color: #228b22;
+}
+/* classe per il titolo del blocco grande */
+.block-big h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #000000;
+}
+/* classe per il paragrafo del blocco grande */
+.block-big p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #000000;
+}
+/* classe per lo sfondo del sotto titolo */
+.under-title{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 3rem;
+}
+/* classe per il sotto titolo del blocco grande */
+.under-title h3{
+    font-size: 1.5rem;
+    color: #070000;
+}
+/* classe per il bottone nel blocco grande */
+.main-mac{
+    background-color: #7289da ;
+    color: #fffefe;
 }
 /* classe per la parte superiore del footer  */
 .footer-top{
