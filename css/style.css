@@ -31,6 +31,15 @@ li{
 .b-gray{
     background-color: #f6f6f6;
 }
+/* classe per l'immagine dell'onda */
+.onda{
+    width: 100%;
+    filter: invert(97%);
+}
+/* classe per girare l'immagine dell'onda */
+.storta{
+    rotate: 180deg;
+}
 /* classe per l'header */
 header{
     min-height: 650px;
