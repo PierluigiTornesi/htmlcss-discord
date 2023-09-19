@@ -4,13 +4,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* reset per le immagini */
+img{
+    max-width: 100%;
+}
 /* ROOT */
 :root{
     --bb-border: 1px dashed black;
 }
+/* classe per il body */
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 /* classe per tutti i link */
 a{
     text-decoration: none;
+    color: inherit;
+}
+/* classe per tutti i li */
+li{
+    color: white;
 }
 /* classe per gli sfondi grigi */
 .b-gray{
@@ -18,34 +31,31 @@ a{
 }
 /* classe per l'header */
 header{
-    height: 400px;
+    min-height: 650px;
     width: 100%;
-    background-color: #00008b;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 /* classe per il nav  */
 nav{
-    background-color: #add8e6;
+    background-color: #255ee9;
     padding: 1rem;
 }
 /*classe per il container del nav  */
 .flex-container-nav{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     height: 25px;
     display: flex;
     flex-direction: row;
-    background-color: #daa520;
     justify-content: space-between;
     align-items: center;
-    border: var(--bb-border);
     gap: 1rem;
 }
-/* classi per il login e il logo per dargli lo spazio al lato */
-.logo{
-    margin-left: 10px;
-}
-.login{
-    margin-right: 10px;
+/* classe per il logo nell'header */
+.login-header{
+    color: black;
+    background-color: white;
 }
 /* classe per la lista */
 .flex-list{
@@ -53,10 +63,8 @@ nav{
     width: 50%;
     margin: 0 auto;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     list-style-type: none;
-    border-left: var(--bb-border);
-    border-right: var(--bb-border);
 }
 /* classe per tutti i li della lista */
 .flex-list li{
@@ -64,11 +72,46 @@ nav{
 }
 /* classe per il blocco dentro l'header */
 .block-header{
-    width: 40%;
-    margin: 1.5rem auto;
+    margin: 0 auto;
+    padding: 10rem;
+    width: 60%;
     min-height: 300px;
-    background-color: #ee82ee;
-    border: var(--bb-border);
+    text-align: center;
+}
+/*classe per il titolo della pagina*/
+h1{
+    font-size:  3rem;
+    color: #ffffff ;
+    padding: 1rem;
+}
+/* classe per il p dell'header */
+.block-header p {
+    color: #ffffff ;  
+    font-size: 1.2rem;
+    padding: 1rem;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+}
+/* classe in comune per tutti i bottoni */
+.button{
+    padding: 0.8rem;
+    border-radius: 30px;
+}
+/* classe per il bottone del download per mac */
+.download-mac{
+    background-color: white;
+    color: #16191d;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+/* classe per il bottone del download per windows */
+.download-windows{
+    background-color:  #23272a;
+    color: #dfe5e5;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
 }
 /* classe per la parte superiore del main */
 .section-main-top{

@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Discord</title>
         <link rel="stylesheet" href="css/style.css">
+        <!-- link per le immagini -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <!-- header -->
@@ -13,23 +15,35 @@
             <nav>
                 <!-- prima sezione dell'header in cui é presente il logo, i vari link dentro una lista e il login -->
                 <section class="flex-container-nav">
+                    <!-- div contenente il logo di discord -->
                     <div class="logo">
-                        logo
+                        <img src="img/logo.svg" alt="">
                     </div>
+                    <!-- lista dei link dell'header -->
                     <ul class="flex-list link">
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
-                        <li><a href="">link</a></li>
+                        <li><a href="">Scarica</a></li>
+                        <li><a href="">Perché Discord</a></li>
+                        <li><a href="">Nitro</a></li>
+                        <li><a href="">Sicurezza</a></li>
+                        <li><a href="">Assistenza</a></li>
                     </ul>
-                    <div class="login">
-                        <a class="login-link" href="">login</a>
+                    <!-- bottone per il login alla pagina -->
+                    <div class="button login-header">
+                        <a  href="">Accedi</a>
                     </div>
                 </section>
             </nav>
             <!-- seconda sezione dell'header in cui c'é il blocco centrale -->
             <section class="block-header">
+                <!-- Titolo della pagina discord -->
+                <h1>Il tuo posto per parlare</h1>
+                <!-- paragrafo sotto il titolo -->
+                <p>
+                    Che tu faccia parte di un club scolastico, gruppo di gamer, comunitá artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende piú facile chiacchierare ogni giorno e ritrovarsi piú spesso.
+                </p>
+                <!-- due link che ti permettono di scaricare discord per mac e per windows -->
+                <a class="button download-mac" href=""><i class="fa-solid fa-arrow-down-long"></i> Scarica per Mac</a>
+                <a class="button download-windows" href="">Apri Discord nel tuo browser</a>
             </section>
         </header>
         <!-- /header -->
