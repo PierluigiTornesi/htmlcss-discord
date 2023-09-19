@@ -195,11 +195,14 @@ h1{
     background-color: #7289da ;
     color: #fffefe;
 }
+/* classe del footer */
+footer{
+    background-color: #23272a;
+}
 /* classe per la parte superiore del footer  */
 .footer-top{
     width: 100%;
     min-height: 600px;
-    background-color: #23272a;
     padding: 3rem;
 }
 /* classe flex per il container del footer */
@@ -241,19 +244,32 @@ h4{
     color: white;
     margin-right: 1.5rem;
 }
-/* classe per il blocco celeste */
-.block-celeste{
+/* classe per il blocco delle informazioni*/
+.block-info{
     min-height: 500px;
     width: calc(100% / 6);
-    background-color:#20b2aa;
-    border: 1px dashed white;
+}
+/* classe per la lista delle informazioni */
+ul{
+    list-style-type: none;
+    color: #7289da;
+    font-weight: bold;
+}
+/* classe per i li della lista */
+li{
+    margin-top: 1.5rem;
+    font-weight: normal;
+}
+/* classe per la riga */
+hr{
+    margin: 0 auto;
+    width: 70%;
+    border: 1px solid #3f4968;
 }
 /* classe per la parte inferiore del footer */
 .footer-bottom{
     min-height: 100px;
     width: 100%;
-    background-color: #23272a;
-    padding: 3rem;
 }
 /*classe per la parte flex del footer inferiore  */
 .flex-footer-bottom{
@@ -263,13 +279,10 @@ h4{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color:#7fffd4;
     align-items: center;
 }
-/* classe per il logo e il bottone nel footer */
-.logo-footer , .botton{
-    background-color:#ffb6c1;
-    border: var(--bb-border);
-    font-size: 20px;
-    padding: 0.5rem;
+/* classe per il bottone della registrazione */
+.registrazione{
+    color: white;
+    background-color: #7289da;
 }
