@@ -33,6 +33,7 @@ li{
 }
 /* classe per l'immagine dell'onda */
 .onda{
+    display: block;
     width: 100%;
     filter: invert(97%);
 }
